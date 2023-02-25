@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<button onclick="myprompt()">Try it</button>
+	<h1 style="color: green; font-size: 80px; font-family: chiller;" id="demo"></h1>
+	<script>
+function myprompt()
+	{
+		var x=prompt("Please enter your name","Najifa anjum");
+		if(x!=null)
+		{
+			//document.write("Hello "+x+" how r you?"); jekono ektai run hbe
+			document.getElementById("demo").innerHTML="Hello "+x+" What are you doing?";
+			
+		}
+	}</script>
+</body>
+</html>
+
+<html>
+<head>
+<script>
+function myprompt2()
+	{
+		var x=prompt("Please enter your name","Najifa anjum");
+		if(x!=null && x!="")
+		{
+			document.write("Hello "+x+" how r you?"); 
+			
+		}
+	}</script>
+</head>
+<body>
+
+<input type="button" value="Click me" onclick="myprompt2()"/>
+</body>
+
+</html>
